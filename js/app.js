@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	btnStop.addEventListener('click', () => {
 		disableButtons();
 		screen.innerHTML = '';
-		result.innerHTML = 0;
+		activeFigures = [];
+		checkCount();
 	});
 }, false);
